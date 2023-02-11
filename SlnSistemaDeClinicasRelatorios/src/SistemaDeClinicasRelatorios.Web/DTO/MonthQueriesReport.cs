@@ -2,7 +2,7 @@
 
 namespace SistemaDeClinicasRelatorios.Web.DTO
 {
-    public class MonthCareReport
+    public class MonthQueriesReport
     {
         [DisplayName("Código Consulta")]
         public int id { get; set; }

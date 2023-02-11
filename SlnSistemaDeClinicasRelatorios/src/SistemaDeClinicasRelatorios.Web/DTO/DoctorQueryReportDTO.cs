@@ -2,7 +2,7 @@
 
 namespace SistemaDeClinicasRelatorios.Web.DTO
 {
-    public class DoctorCareReportDTO
+    public class DoctorQueryReportDTO
     {
         [DisplayName("Código Médico")]
         public int idDoctor { get; set; }
