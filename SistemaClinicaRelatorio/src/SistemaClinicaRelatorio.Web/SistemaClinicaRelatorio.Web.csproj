@@ -6,4 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\DoctorQueryReport\" />
+    <Folder Include="Views\MonthQueriesReport\" />
+    <Folder Include="Views\PacientReport\" />
+  </ItemGroup>
+
 </Project>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OJnuUNjPCU1UTdH+1DEGNdFop6PtAaquZ3nd7Y/94PF2tT8o2NzfwhiJTc8ZS2Pxv2zAC0DAcL7+S88+VBaJww==",
+  "dgSpecHash": "KNIGjfy8frD/tGlBKbpUlkHMUdID/BJD5Ev6nz2POXkUgU/Y7EHo98Eyi6MDIb77B49pxY9Wpb76cgF26QrFtQ==",
   "success": true,
-  "projectFilePath": "C:\\Teste\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Web\\SistemaClinicaRelatorio.Web.csproj",
+  "projectFilePath": "C:\\DEV2BLU\\Projetos de Aulas\\RelatoriosClinicos\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Web\\SistemaClinicaRelatorio.Web.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

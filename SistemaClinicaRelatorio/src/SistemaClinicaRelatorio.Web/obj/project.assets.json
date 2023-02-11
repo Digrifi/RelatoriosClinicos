@@ -8,19 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Marcos\\.nuget\\packages\\": {}
+    "C:\\Users\\pedro\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Teste\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Web\\SistemaClinicaRelatorio.Web.csproj",
+      "projectUniqueName": "C:\\DEV2BLU\\Projetos de Aulas\\RelatoriosClinicos\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Web\\SistemaClinicaRelatorio.Web.csproj",
       "projectName": "SistemaClinicaRelatorio.Web",
-      "projectPath": "C:\\Teste\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Web\\SistemaClinicaRelatorio.Web.csproj",
-      "packagesPath": "C:\\Users\\Marcos\\.nuget\\packages\\",
-      "outputPath": "C:\\Teste\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Web\\obj\\",
+      "projectPath": "C:\\DEV2BLU\\Projetos de Aulas\\RelatoriosClinicos\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Web\\SistemaClinicaRelatorio.Web.csproj",
+      "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
+      "outputPath": "C:\\DEV2BLU\\Projetos de Aulas\\RelatoriosClinicos\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Web\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Marcos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
