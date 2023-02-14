@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace SistemaClinicaRelatorio.Web.DTOs
+namespace SistemaClinicaRelatorio.Application.Service.DTOs
 {
     public class PacientReportDTO
     {
@@ -12,6 +12,8 @@ namespace SistemaClinicaRelatorio.Web.DTOs
         public string medicalRecord { get; set; }
         [DisplayName("CPF")]
         public string cpf { get; set; }
+        [DisplayName("Gênero")]
+        public GenderEnun gender { get; set; }
         [DisplayName("Telefone")]
         public string fone { get; set; }
         [DisplayName("Data de Nascimento")]

@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "SistemaClinicaRelatorio.Application.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "SistemaClinicaRelatorio.Infra.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SistemaClinicaRelatorio.Application.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SistemaClinicaRelatorio.Application.Service.dll": {}
+        }
+      },
+      "SistemaClinicaRelatorio.Infra.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SistemaClinicaRelatorio.Infra.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SistemaClinicaRelatorio.Infra.Data.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SistemaClinicaRelatorio.Application.Service/1.0.0": {
+      "type": "project",
+      "path": "../SistemaClinicaRelatorio.Application.Service/SistemaClinicaRelatorio.Application.Service.csproj",
+      "msbuildProject": "../SistemaClinicaRelatorio.Application.Service/SistemaClinicaRelatorio.Application.Service.csproj"
+    },
+    "SistemaClinicaRelatorio.Infra.Data/1.0.0": {
+      "type": "project",
+      "path": "../SistemaClinicaRelatorio.Infra.Data/SistemaClinicaRelatorio.Infra.Data.csproj",
+      "msbuildProject": "../SistemaClinicaRelatorio.Infra.Data/SistemaClinicaRelatorio.Infra.Data.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "SistemaClinicaRelatorio.Application.Service >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Marcos\\.nuget\\packages\\": {}
@@ -33,7 +70,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Teste\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Application.Service\\SistemaClinicaRelatorio.Application.Service.csproj": {
+              "projectPath": "C:\\Teste\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Application.Service\\SistemaClinicaRelatorio.Application.Service.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

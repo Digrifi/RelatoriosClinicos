@@ -1,11 +1,11 @@
 ﻿using System.ComponentModel;
 
-namespace SistemaClinicaRelatorio.Web.DTOs
+namespace SistemaClinicaRelatorio.Application.Service.DTOs
 {
     public class MonthQueriesReportDTO
     {
         [DisplayName("Código Consulta")]
-        public int id { get; set; }
+        public int idService { get; set; }
         [DisplayName("Paciente")]
         public string pacient { get; set; }
         [DisplayName("Médico")]

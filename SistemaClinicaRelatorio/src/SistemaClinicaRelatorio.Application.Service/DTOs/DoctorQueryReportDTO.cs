@@ -1,15 +1,15 @@
 ﻿using System.ComponentModel;
 
-namespace SistemaClinicaRelatorio.Web.DTOs
+namespace SistemaClinicaRelatorio.Application.Service.DTOs
 {
-    public class DoctorQueryReportDTOcs
+    public class DoctorQueryReportDTO
     {
         [DisplayName("Código Médico")]
         public int idDoctor { get; set; }
         [DisplayName("Nome Médico")]
         public string nameDoctor { get; set; }
-        [DisplayName("CPF")]
-        public string cpf { get; set; }
+        [DisplayName("CNPJ")]
+        public string cnpj { get; set; }
         [DisplayName("CRM")]
         public string crm { get; set; }
         [DisplayName("Especialidade")]
