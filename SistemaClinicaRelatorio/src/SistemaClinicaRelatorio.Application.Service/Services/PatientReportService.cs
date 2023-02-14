@@ -1,4 +1,4 @@
-﻿using SistemaClinicaRelatorio.Application.Service.DTOs;
+﻿using SistemaClinicaRelatorio.Domain.DTO;
 using SistemaClinicaRelatorio.Infra.Data.Repositories;
 using System;
 using System.Collections.Generic;
@@ -25,12 +25,9 @@ namespace SistemaClinicaRelatorio.Application.Service.Services
                     id = p.Id,
                     name = p.Person.Name,
                     cpf = p.Person.CPF,
-                    birth = p.Person.BirthDate,
-                    gender = p.Person.Gender,
-                    medicalRecord = p.MRNumber,
-                    fone = p.Endereco.Fone,
-                    state = p.Endereco.State,
-                    city = p.Endereco.City
+                    age = p.Person.Age,
+                    //medicalRecord = p.MRNumber,
+                    city = p.Person.Address.City,
                 }).ToList();
         }
     }

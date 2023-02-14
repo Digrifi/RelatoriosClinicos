@@ -2,9 +2,22 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "SistemaClinicaRelatorio.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SistemaClinicaRelatorio.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SistemaClinicaRelatorio.Domain.dll": {}
+        }
+      },
       "SistemaClinicaRelatorio.Infra.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "SistemaClinicaRelatorio.Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/SistemaClinicaRelatorio.Infra.Data.dll": {}
         },
@@ -15,6 +28,11 @@
     }
   },
   "libraries": {
+    "SistemaClinicaRelatorio.Domain/1.0.0": {
+      "type": "project",
+      "path": "../SistemaClinicaRelatorio.Domain/SistemaClinicaRelatorio.Domain.csproj",
+      "msbuildProject": "../SistemaClinicaRelatorio.Domain/SistemaClinicaRelatorio.Domain.csproj"
+    },
     "SistemaClinicaRelatorio.Infra.Data/1.0.0": {
       "type": "project",
       "path": "../SistemaClinicaRelatorio.Infra.Data/SistemaClinicaRelatorio.Infra.Data.csproj",
@@ -23,6 +41,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "SistemaClinicaRelatorio.Domain >= 1.0.0",
       "SistemaClinicaRelatorio.Infra.Data >= 1.0.0"
     ]
   },
@@ -53,6 +72,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Teste\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Domain\\SistemaClinicaRelatorio.Domain.csproj": {
+              "projectPath": "C:\\Teste\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Domain\\SistemaClinicaRelatorio.Domain.csproj"
+            },
             "C:\\Teste\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Infra.Data\\SistemaClinicaRelatorio.Infra.Data.csproj": {
               "projectPath": "C:\\Teste\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Infra.Data\\SistemaClinicaRelatorio.Infra.Data.csproj"
             }

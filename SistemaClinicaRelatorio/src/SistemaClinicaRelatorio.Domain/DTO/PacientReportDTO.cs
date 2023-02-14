@@ -1,6 +1,7 @@
-﻿using System.ComponentModel;
+﻿using SistemaClinicaRelatorio.Domain.Enums;
+using System.ComponentModel;
 
-namespace SistemaClinicaRelatorio.Application.Service.DTOs
+namespace SistemaClinicaRelatorio.Domain.DTO
 {
     public class PacientReportDTO
     {
@@ -13,11 +14,11 @@ namespace SistemaClinicaRelatorio.Application.Service.DTOs
         [DisplayName("CPF")]
         public string cpf { get; set; }
         [DisplayName("Gênero")]
-        public GenderEnun gender { get; set; }
+        public GenderEnum gender { get; set; }
         [DisplayName("Telefone")]
         public string fone { get; set; }
-        [DisplayName("Data de Nascimento")]
-        public string birth { get; set; }
+        [DisplayName("Idade")]
+        public string age { get; set; }
         [DisplayName("Estado")]
         public string state { get; set; }
         [DisplayName("Cidade")]

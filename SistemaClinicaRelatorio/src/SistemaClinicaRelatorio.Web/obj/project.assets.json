@@ -6,6 +6,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "SistemaClinicaRelatorio.Domain": "1.0.0",
           "SistemaClinicaRelatorio.Infra.Data": "1.0.0"
         },
         "compile": {
@@ -15,9 +16,22 @@
           "bin/placeholder/SistemaClinicaRelatorio.Application.Service.dll": {}
         }
       },
+      "SistemaClinicaRelatorio.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SistemaClinicaRelatorio.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SistemaClinicaRelatorio.Domain.dll": {}
+        }
+      },
       "SistemaClinicaRelatorio.Infra.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "SistemaClinicaRelatorio.Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/SistemaClinicaRelatorio.Infra.Data.dll": {}
         },
@@ -32,6 +46,11 @@
       "type": "project",
       "path": "../SistemaClinicaRelatorio.Application.Service/SistemaClinicaRelatorio.Application.Service.csproj",
       "msbuildProject": "../SistemaClinicaRelatorio.Application.Service/SistemaClinicaRelatorio.Application.Service.csproj"
+    },
+    "SistemaClinicaRelatorio.Domain/1.0.0": {
+      "type": "project",
+      "path": "../SistemaClinicaRelatorio.Domain/SistemaClinicaRelatorio.Domain.csproj",
+      "msbuildProject": "../SistemaClinicaRelatorio.Domain/SistemaClinicaRelatorio.Domain.csproj"
     },
     "SistemaClinicaRelatorio.Infra.Data/1.0.0": {
       "type": "project",

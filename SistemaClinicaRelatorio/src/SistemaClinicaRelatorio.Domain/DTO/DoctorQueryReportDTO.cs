@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace SistemaClinicaRelatorio.Application.Service.DTOs
+namespace SistemaClinicaRelatorio.Domain.DTO
 {
     public class DoctorQueryReportDTO
     {

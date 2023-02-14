@@ -1,0 +1,8 @@
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Web\obj\Debug\net6.0\SistemaClinicaRelatorio.Web.csproj.AssemblyReference.cache
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Web\obj\Debug\net6.0\SistemaClinicaRelatorio.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Web\obj\Debug\net6.0\SistemaClinicaRelatorio.Web.AssemblyInfoInputs.cache
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Web\obj\Debug\net6.0\SistemaClinicaRelatorio.Web.AssemblyInfo.cs
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Web\obj\Debug\net6.0\SistemaClinicaRelatorio.Web.csproj.CoreCompileInputs.cache
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Web\obj\Debug\net6.0\SistemaClinicaRelatorio.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Web\obj\Debug\net6.0\SistemaClinicaRelatorio.Web.RazorAssemblyInfo.cache
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Web\obj\Debug\net6.0\SistemaClinicaRelatorio.Web.RazorAssemblyInfo.cs

@@ -1,4 +1,4 @@
-﻿using SistemaClinicaRelatorio.Application.Service.DTOs;
+﻿using SistemaClinicaRelatorio.Domain.DTO;
 using SistemaClinicaRelatorio.Infra.Data.Repositories;
 using System;
 using System.Collections.Generic;

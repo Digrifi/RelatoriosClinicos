@@ -1,0 +1,5 @@
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Infra.Data\obj\Debug\net6.0\SistemaClinicaRelatorio.Infra.Data.csproj.AssemblyReference.cache
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Infra.Data\obj\Debug\net6.0\SistemaClinicaRelatorio.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Infra.Data\obj\Debug\net6.0\SistemaClinicaRelatorio.Infra.Data.AssemblyInfoInputs.cache
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Infra.Data\obj\Debug\net6.0\SistemaClinicaRelatorio.Infra.Data.AssemblyInfo.cs
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Infra.Data\obj\Debug\net6.0\SistemaClinicaRelatorio.Infra.Data.csproj.CoreCompileInputs.cache
