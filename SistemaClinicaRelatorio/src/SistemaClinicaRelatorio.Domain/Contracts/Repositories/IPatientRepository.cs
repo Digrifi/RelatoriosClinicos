@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SistemaClinicaRelatorio.Domain.Contracts.Repositories
 {
-    internal interface IPatientRepository : IBaseRepository<Patient>
+    public interface IPatientRepository : IBaseRepository<Patient>
     {
     }
 }

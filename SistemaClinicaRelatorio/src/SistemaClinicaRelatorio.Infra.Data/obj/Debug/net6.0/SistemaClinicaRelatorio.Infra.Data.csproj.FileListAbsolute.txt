@@ -1,5 +1,17 @@
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Infra.Data\bin\Debug\net6.0\SistemaClinicaRelatorio.Infra.Data.deps.json
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Infra.Data\bin\Debug\net6.0\SistemaClinicaRelatorio.Infra.Data.runtimeconfig.json
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Infra.Data\bin\Debug\net6.0\SistemaClinicaRelatorio.Infra.Data.dll
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Infra.Data\bin\Debug\net6.0\SistemaClinicaRelatorio.Infra.Data.pdb
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Infra.Data\bin\Debug\net6.0\SistemaClinicaRelatorio.Domain.dll
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Infra.Data\bin\Debug\net6.0\SistemaClinicaRelatorio.Domain.pdb
 C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Infra.Data\obj\Debug\net6.0\SistemaClinicaRelatorio.Infra.Data.csproj.AssemblyReference.cache
 C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Infra.Data\obj\Debug\net6.0\SistemaClinicaRelatorio.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
 C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Infra.Data\obj\Debug\net6.0\SistemaClinicaRelatorio.Infra.Data.AssemblyInfoInputs.cache
 C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Infra.Data\obj\Debug\net6.0\SistemaClinicaRelatorio.Infra.Data.AssemblyInfo.cs
 C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Infra.Data\obj\Debug\net6.0\SistemaClinicaRelatorio.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Infra.Data\obj\Debug\net6.0\SistemaClinicaRelatorio.Infra.Data.csproj.CopyComplete
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Infra.Data\obj\Debug\net6.0\SistemaClinicaRelatorio.Infra.Data.dll
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Infra.Data\obj\Debug\net6.0\refint\SistemaClinicaRelatorio.Infra.Data.dll
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Infra.Data\obj\Debug\net6.0\SistemaClinicaRelatorio.Infra.Data.pdb
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Infra.Data\obj\Debug\net6.0\SistemaClinicaRelatorio.Infra.Data.genruntimeconfig.cache
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Infra.Data\obj\Debug\net6.0\ref\SistemaClinicaRelatorio.Infra.Data.dll

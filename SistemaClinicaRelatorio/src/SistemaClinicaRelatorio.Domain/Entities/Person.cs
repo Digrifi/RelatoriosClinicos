@@ -16,5 +16,7 @@ namespace SistemaClinicaRelatorio.Domain.Entities
         public string Age { get; internal set; }
         public int AddressId { get; set; }
         public virtual Address? Address { get; set; }
+
+        public ICollection<Patient>? Patient { get; set; }
     }
 }

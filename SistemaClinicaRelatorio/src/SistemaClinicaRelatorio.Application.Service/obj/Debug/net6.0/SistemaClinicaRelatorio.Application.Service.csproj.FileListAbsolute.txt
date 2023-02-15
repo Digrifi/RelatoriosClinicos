@@ -1,5 +1,17 @@
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Application.Service\bin\Debug\net6.0\SistemaClinicaRelatorio.Application.Service.deps.json
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Application.Service\bin\Debug\net6.0\SistemaClinicaRelatorio.Application.Service.dll
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Application.Service\bin\Debug\net6.0\SistemaClinicaRelatorio.Application.Service.pdb
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Application.Service\bin\Debug\net6.0\SistemaClinicaRelatorio.Domain.dll
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Application.Service\bin\Debug\net6.0\SistemaClinicaRelatorio.Infra.Data.dll
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Application.Service\bin\Debug\net6.0\SistemaClinicaRelatorio.Domain.pdb
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Application.Service\bin\Debug\net6.0\SistemaClinicaRelatorio.Infra.Data.pdb
 C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Application.Service\obj\Debug\net6.0\SistemaClinicaRelatorio.Application.Service.csproj.AssemblyReference.cache
 C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Application.Service\obj\Debug\net6.0\SistemaClinicaRelatorio.Application.Service.GeneratedMSBuildEditorConfig.editorconfig
 C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Application.Service\obj\Debug\net6.0\SistemaClinicaRelatorio.Application.Service.AssemblyInfoInputs.cache
 C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Application.Service\obj\Debug\net6.0\SistemaClinicaRelatorio.Application.Service.AssemblyInfo.cs
 C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Application.Service\obj\Debug\net6.0\SistemaClinicaRelatorio.Application.Service.csproj.CoreCompileInputs.cache
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Application.Service\obj\Debug\net6.0\SistemaClinicaRelatorio.Application.Service.csproj.CopyComplete
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Application.Service\obj\Debug\net6.0\SistemaClinicaRelatorio.Application.Service.dll
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Application.Service\obj\Debug\net6.0\refint\SistemaClinicaRelatorio.Application.Service.dll
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Application.Service\obj\Debug\net6.0\SistemaClinicaRelatorio.Application.Service.pdb
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Application.Service\obj\Debug\net6.0\ref\SistemaClinicaRelatorio.Application.Service.dll

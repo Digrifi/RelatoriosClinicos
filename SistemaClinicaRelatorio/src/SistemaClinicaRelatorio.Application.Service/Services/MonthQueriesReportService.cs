@@ -23,11 +23,11 @@ namespace SistemaClinicaRelatorio.Application.Service.Services
                 Select(d => new MonthQueriesReportDTO()
                 {
                     idService = d.Id,
-                    pacient = d.Pacient.Person.Name,
+                    pacient = d.Patient.Person.Name,
                     doctor = d.Doctor.Person.Name,
                     specialty = d.Doctor.Specialty.Name,
                     date = d.Date,
-                    assessment = d.Assessment
+                    assessment = d.Evaluation
                 }).ToList();
         }
     }

@@ -24,13 +24,13 @@ namespace SistemaClinicaRelatorio.Application.Service.Services
                 {
                     idDoctor = d.Doctor.Id,
                     nameDoctor = d.Doctor.Person.Name,
-                    cnpj = d.Doctor.Person.CNPJ,
+                    cnpj = d.Doctor.CNPJ,
                     crm = d.Doctor.CRM,
                     specialty = d.Doctor.Specialty.Name,
                     idService = d.Id,
-                    pacient = d.Pacient.Person.Name,
+                    pacient = d.Patient.Person.Name,
                     date = d.Date,
-                    assessment = d.Assessment
+                    assessment = d.Evaluation
                 }).ToList();
         }
     }

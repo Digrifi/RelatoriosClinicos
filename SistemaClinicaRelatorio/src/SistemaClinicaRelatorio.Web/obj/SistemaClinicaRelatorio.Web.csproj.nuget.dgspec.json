@@ -160,6 +160,26 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -206,6 +226,12 @@
             "projectReferences": {
               "C:\\Teste\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Application.Service\\SistemaClinicaRelatorio.Application.Service.csproj": {
                 "projectPath": "C:\\Teste\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Application.Service\\SistemaClinicaRelatorio.Application.Service.csproj"
+              },
+              "C:\\Teste\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Domain\\SistemaClinicaRelatorio.Domain.csproj": {
+                "projectPath": "C:\\Teste\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Domain\\SistemaClinicaRelatorio.Domain.csproj"
+              },
+              "C:\\Teste\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Infra.Data\\SistemaClinicaRelatorio.Infra.Data.csproj": {
+                "projectPath": "C:\\Teste\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Infra.Data\\SistemaClinicaRelatorio.Infra.Data.csproj"
               }
             }
           }
@@ -219,6 +245,26 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

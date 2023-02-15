@@ -1,7 +1,15 @@
+using Microsoft.EntityFrameworkCore;
+using SistemaClinicaRelatorio.Infra.Data.Context;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// SQLServerContext
+builder.Services.AddDbContext<SQLServerContext>
+    (options => options.UseSqlServer("Server=DESKTOP-UME51NM\\SQLMATEUS;Database=SistemaClinica;User Id=sa;Password=zuky;TrustServerCertificate=True;Encrypt=False;"));
+
 
 var app = builder.Build();
 
