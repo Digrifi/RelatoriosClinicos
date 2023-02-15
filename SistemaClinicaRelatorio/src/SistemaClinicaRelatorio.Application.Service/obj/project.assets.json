@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "SistemaClinicaRelatorio.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SistemaClinicaRelatorio.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SistemaClinicaRelatorio.Domain.dll": {}
+        }
+      },
+      "SistemaClinicaRelatorio.Infra.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "SistemaClinicaRelatorio.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SistemaClinicaRelatorio.Infra.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SistemaClinicaRelatorio.Infra.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SistemaClinicaRelatorio.Domain/1.0.0": {
+      "type": "project",
+      "path": "../SistemaClinicaRelatorio.Domain/SistemaClinicaRelatorio.Domain.csproj",
+      "msbuildProject": "../SistemaClinicaRelatorio.Domain/SistemaClinicaRelatorio.Domain.csproj"
+    },
+    "SistemaClinicaRelatorio.Infra.Data/1.0.0": {
+      "type": "project",
+      "path": "../SistemaClinicaRelatorio.Infra.Data/SistemaClinicaRelatorio.Infra.Data.csproj",
+      "msbuildProject": "../SistemaClinicaRelatorio.Infra.Data/SistemaClinicaRelatorio.Infra.Data.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "SistemaClinicaRelatorio.Domain >= 1.0.0",
+      "SistemaClinicaRelatorio.Infra.Data >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Dimpeny\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Programação aula\\Avaliação grupo\\RelatoriosClinicos\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Application.Service\\SistemaClinicaRelatorio.Application.Service.csproj",
+      "projectName": "SistemaClinicaRelatorio.Application.Service",
+      "projectPath": "D:\\Programação aula\\Avaliação grupo\\RelatoriosClinicos\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Application.Service\\SistemaClinicaRelatorio.Application.Service.csproj",
+      "packagesPath": "C:\\Users\\Dimpeny\\.nuget\\packages\\",
+      "outputPath": "D:\\Programação aula\\Avaliação grupo\\RelatoriosClinicos\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Application.Service\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Dimpeny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\Programação aula\\Avaliação grupo\\RelatoriosClinicos\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Domain\\SistemaClinicaRelatorio.Domain.csproj": {
+              "projectPath": "D:\\Programação aula\\Avaliação grupo\\RelatoriosClinicos\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Domain\\SistemaClinicaRelatorio.Domain.csproj"
+            },
+            "D:\\Programação aula\\Avaliação grupo\\RelatoriosClinicos\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Infra.Data\\SistemaClinicaRelatorio.Infra.Data.csproj": {
+              "projectPath": "D:\\Programação aula\\Avaliação grupo\\RelatoriosClinicos\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Infra.Data\\SistemaClinicaRelatorio.Infra.Data.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

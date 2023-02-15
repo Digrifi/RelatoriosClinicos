@@ -1,0 +1,12 @@
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Domain\bin\Debug\net6.0\SistemaClinicaRelatorio.Domain.deps.json
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Domain\bin\Debug\net6.0\SistemaClinicaRelatorio.Domain.dll
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Domain\bin\Debug\net6.0\SistemaClinicaRelatorio.Domain.pdb
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Domain\obj\Debug\net6.0\SistemaClinicaRelatorio.Domain.csproj.AssemblyReference.cache
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Domain\obj\Debug\net6.0\SistemaClinicaRelatorio.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Domain\obj\Debug\net6.0\SistemaClinicaRelatorio.Domain.AssemblyInfoInputs.cache
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Domain\obj\Debug\net6.0\SistemaClinicaRelatorio.Domain.AssemblyInfo.cs
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Domain\obj\Debug\net6.0\SistemaClinicaRelatorio.Domain.csproj.CoreCompileInputs.cache
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Domain\obj\Debug\net6.0\SistemaClinicaRelatorio.Domain.dll
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Domain\obj\Debug\net6.0\refint\SistemaClinicaRelatorio.Domain.dll
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Domain\obj\Debug\net6.0\SistemaClinicaRelatorio.Domain.pdb
+C:\Teste\SistemaClinicaRelatorio\src\SistemaClinicaRelatorio.Domain\obj\Debug\net6.0\ref\SistemaClinicaRelatorio.Domain.dll

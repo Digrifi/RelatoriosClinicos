@@ -1,0 +1,51 @@
+﻿@model IEnumerable<SistemaClinicaRelatorio.Domain.DTO.MonthQueriesReportDTO>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.idService)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.pacient)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.doctor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.specialty)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.assessment)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.idService)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.pacient)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.doctor)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.specialty)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.assessment)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,122 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Programação aula\\Avaliação grupo\\RelatoriosClinicos\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Infra.Data\\SistemaClinicaRelatorio.Infra.Data.csproj": {}
+  },
+  "projects": {
+    "D:\\Programação aula\\Avaliação grupo\\RelatoriosClinicos\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Domain\\SistemaClinicaRelatorio.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programação aula\\Avaliação grupo\\RelatoriosClinicos\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Domain\\SistemaClinicaRelatorio.Domain.csproj",
+        "projectName": "SistemaClinicaRelatorio.Domain",
+        "projectPath": "D:\\Programação aula\\Avaliação grupo\\RelatoriosClinicos\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Domain\\SistemaClinicaRelatorio.Domain.csproj",
+        "packagesPath": "C:\\Users\\Dimpeny\\.nuget\\packages\\",
+        "outputPath": "D:\\Programação aula\\Avaliação grupo\\RelatoriosClinicos\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dimpeny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programação aula\\Avaliação grupo\\RelatoriosClinicos\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Infra.Data\\SistemaClinicaRelatorio.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programação aula\\Avaliação grupo\\RelatoriosClinicos\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Infra.Data\\SistemaClinicaRelatorio.Infra.Data.csproj",
+        "projectName": "SistemaClinicaRelatorio.Infra.Data",
+        "projectPath": "D:\\Programação aula\\Avaliação grupo\\RelatoriosClinicos\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Infra.Data\\SistemaClinicaRelatorio.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\Dimpeny\\.nuget\\packages\\",
+        "outputPath": "D:\\Programação aula\\Avaliação grupo\\RelatoriosClinicos\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dimpeny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Programação aula\\Avaliação grupo\\RelatoriosClinicos\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Domain\\SistemaClinicaRelatorio.Domain.csproj": {
+                "projectPath": "D:\\Programação aula\\Avaliação grupo\\RelatoriosClinicos\\SistemaClinicaRelatorio\\src\\SistemaClinicaRelatorio.Domain\\SistemaClinicaRelatorio.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+﻿using System.ComponentModel;
+
+namespace SistemaClinicaRelatorio.Domain.DTO
+{
+    public class DoctorQueryReportDTO
+    {
+        [DisplayName("Código Médico")]
+        public int idDoctor { get; set; }
+        [DisplayName("Nome Médico")]
+        public string nameDoctor { get; set; }
+        [DisplayName("CNPJ")]
+        public string cnpj { get; set; }
+        [DisplayName("CRM")]
+        public string crm { get; set; }
+        [DisplayName("Especialidade")]
+        public string specialty { get; set; }
+        [DisplayName("Código Atendimento")]
+        public int idService { get; set; }
+        [DisplayName("Paciente")]
+        public string pacient { get; set; }
+        [DisplayName("Data")]
+        public DateTime date { get; set; }
+        [DisplayName("Avaliação")]
+        public string assessment { get; set; }
+    }
+}

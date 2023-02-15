@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaClinicaRelatorio.Domain\SistemaClinicaRelatorio.Domain.csproj" />
+    <ProjectReference Include="..\SistemaClinicaRelatorio.Infra.Data\SistemaClinicaRelatorio.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
