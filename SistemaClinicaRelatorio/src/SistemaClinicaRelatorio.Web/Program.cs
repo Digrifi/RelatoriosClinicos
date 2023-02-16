@@ -1,5 +1,9 @@
 using Microsoft.EntityFrameworkCore;
+using SistemaClinicaRelatorio.Application.Service.Services;
+using SistemaClinicaRelatorio.Domain.Contracts.Repositories;
+using SistemaClinicaRelatorio.Domain.Contracts.Services;
 using SistemaClinicaRelatorio.Infra.Data.Context;
+using SistemaClinicaRelatorio.Infra.Data.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +13,13 @@ builder.Services.AddControllersWithViews();
 // SQLServerContext
 builder.Services.AddDbContext<SQLServerContext>
     (options => options.UseSqlServer("Server=DESKTOP-UME51NM\\SQLMATEUS;Database=SistemaClinica;User Id=sa;Password=zuky;TrustServerCertificate=True;Encrypt=False;"));
+
+// ### Dependency Injection
+// # Repositories
+builder.Services.AddScoped<IPatientReportRepository, PatientReportRepository>();
+
+// # Services
+builder.Services.AddScoped<IPatientReportService, PatientReportService>();
 
 
 var app = builder.Build();
