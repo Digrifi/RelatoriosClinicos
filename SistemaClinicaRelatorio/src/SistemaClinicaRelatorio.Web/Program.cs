@@ -22,7 +22,7 @@ builder.Services.AddScoped<IMonthQueriesReportRepository, MonthQueriesReportRepo
 
 // # Services
 builder.Services.AddScoped<IPatientReportService, PatientReportService>();
-builder.Services.AddScoped<DoctorQueryReportService, DoctorQueryReportService>();
+builder.Services.AddScoped<IDoctorQueryReportService, DoctorQueryReportService>();
 builder.Services.AddScoped<IMonthQueriesReportService, MonthQueriesReportService>();
 
 
