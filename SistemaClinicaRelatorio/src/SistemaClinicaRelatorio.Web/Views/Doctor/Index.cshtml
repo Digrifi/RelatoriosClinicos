@@ -1,0 +1,50 @@
+﻿@model IEnumerable<SistemaClinicaRelatorio.Domain.DTO.DoctorDTO>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.specialtyId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.cnpj)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.crm)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.personId)
+            </th>
+            <th>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.specialtyId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.cnpj)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.crm)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.personId)
+                </td>
+                <td>
+                    <a class="btn btn-primary" asp-action="" asp-route-id="@item.id">View</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
