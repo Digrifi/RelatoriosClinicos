@@ -1,4 +1,6 @@
-﻿using SistemaClinicaRelatorio.Domain.DTO;
+﻿using SistemaClinicaRelatorio.Domain.Contracts.Repositories;
+using SistemaClinicaRelatorio.Domain.Contracts.Services;
+using SistemaClinicaRelatorio.Domain.DTO;
 using SistemaClinicaRelatorio.Infra.Data.Repositories;
 using System;
 using System.Collections.Generic;
@@ -9,12 +11,17 @@ using System.Threading.Tasks;
 
 namespace SistemaClinicaRelatorio.Application.Service.Services
 {
-    public class MonthQueriesReportService
+    public class MonthQueriesReportService : IMonthQueriesReportService
     {
-        private readonly MonthQueriesReportRepository _repository;
-        public MonthQueriesReportService(MonthQueriesReportRepository repository)
+        private readonly IMonthQueriesReportRepository _repository;
+        public MonthQueriesReportService(IMonthQueriesReportRepository repository)
         {
             _repository = repository;
+        }
+
+        public Task<int> Delete(int id)
+        {
+            throw new NotImplementedException();
         }
 
         public List<MonthQueriesReportDTO> FindAll()
@@ -29,6 +36,26 @@ namespace SistemaClinicaRelatorio.Application.Service.Services
                     date = d.Date,
                     assessment = d.Evaluation
                 }).ToList();
+        }
+
+        public Task<MonthQueriesReportDTO> FindById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<MonthQueriesReportDTO> GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<MonthQueriesReportDTO> GetById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<int> Save(MonthQueriesReportDTO entity)
+        {
+            throw new NotImplementedException();
         }
     }
 }
