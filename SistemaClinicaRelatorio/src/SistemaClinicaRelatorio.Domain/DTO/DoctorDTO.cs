@@ -28,6 +28,7 @@ namespace SistemaClinicaRelatorio.Domain.DTO
 
         [Display(Name = "PersonId")]
         public int personId { get; set; }
+        public virtual PersonDTO? person { get; set; }
 
 
         public Doctor mapToEntity()

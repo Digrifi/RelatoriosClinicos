@@ -1,0 +1,67 @@
+﻿@model IEnumerable<SistemaClinicaRelatorio.Domain.DTO.DoctorQueryReportDTO>
+
+@foreach (var item in @Model)
+{
+    int count = 1;
+
+    <div>
+        @Html.DisplayFor(modelItem => item.idDoctor)
+    </div>
+     <div>
+        @Html.DisplayFor(modelItem => item.nameDoctor)
+    </div>
+    <div>
+        @Html.DisplayFor(modelItem => item.cnpj)
+    </div>
+     <div>
+        @Html.DisplayFor(modelItem => item.crm)
+    </div>
+    <div>
+        @Html.DisplayFor(modelItem => item.specialty)
+    </div>
+    
+
+    @if(count == 1)
+    {
+        break;
+    }
+}
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.idService)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.pacient)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.assessment)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.idService)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.pacient)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.assessment)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

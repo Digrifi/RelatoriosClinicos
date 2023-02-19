@@ -7,29 +7,41 @@ namespace SistemaClinicaRelatorio.Web.Controllers
 {
     public class ReportsController : Controller
     {
-        private readonly IDoctorQueryReportService _doctorService;
+        private readonly IDoctorQueryReportService _doctorReportService;
+        private readonly IDoctorService _doctorService;
         private readonly IPatientReportService _patientService;
         private readonly IMonthQueriesReportService _monthService;
-        public ReportsController(DoctorQueryReportService doctorService, PatientReportService patientService, IMonthQueriesReportService montService)
+        public ReportsController(IDoctorQueryReportService doctorReportService, IDoctorService doctorService, IPatientReportService patientService, IMonthQueriesReportService montService)
         {
+            _doctorReportService = doctorReportService;
             _doctorService = doctorService;
             _patientService = patientService;
             _monthService = montService;
         }
 
+        public async Task<IActionResult> Index()
+        {
+            return View();
+        }
+        
+        public async Task<IActionResult> Doctors() 
+        {
+            return View(_doctorService.FindAll());
+        }
+
         public async Task<IActionResult> DoctorQueryReport(int id)
         {
-            return View(_doctorService.FindAll()
+            return View(_doctorReportService.FindAll()
                         .Where(d => d.idDoctor == id));
         }
-        public async Task<IActionResult> PatientReport(int id)
+        public async Task<IActionResult> PatientReport()
         {
             return View(_patientService.FindAll());
         }
-        public IActionResult MonthQueriesReport(int month)
+        public async Task<IActionResult> MonthQueriesReport(int month, int year)
         {
             return View(_monthService.FindAll()
-                        .Where(m => m.date.Month == month));
+                        .Where(m => m.date.Month == month && m.date.Year == year));
         }
     }
 }

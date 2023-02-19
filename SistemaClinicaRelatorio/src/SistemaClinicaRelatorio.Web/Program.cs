@@ -16,11 +16,13 @@ builder.Services.AddDbContext<SQLServerContext>
 
 // ### Dependency Injection
 // # Repositories
+builder.Services.AddScoped<IDoctorRepository, DoctorRepository>();
 builder.Services.AddScoped<IPatientReportRepository, PatientReportRepository>();
 builder.Services.AddScoped<IDoctorQueryRepository, DoctorQueryReportRepository>();
 builder.Services.AddScoped<IMonthQueriesReportRepository, MonthQueriesReportRepository>();
 
 // # Services
+builder.Services.AddScoped<IDoctorService, DoctorService>();
 builder.Services.AddScoped<IPatientReportService, PatientReportService>();
 builder.Services.AddScoped<IDoctorQueryReportService, DoctorQueryReportService>();
 builder.Services.AddScoped<IMonthQueriesReportService, MonthQueriesReportService>();

@@ -1,20 +1,18 @@
 ﻿using SistemaClinicaRelatorio.Domain.Contracts.Repositories;
 using SistemaClinicaRelatorio.Domain.Contracts.Services;
 using SistemaClinicaRelatorio.Domain.DTO;
-using SistemaClinicaRelatorio.Infra.Data.Repositories;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace SistemaClinicaRelatorio.Application.Service.Services
 {
-    public class PatientReportService : IPatientReportService
+    public class DoctorService : IDoctorService
     {
-        private readonly IPatientReportRepository _repository;
-        public PatientReportService(IPatientReportRepository repository)
+        private readonly IDoctorRepository _repository;
+        public DoctorService(IDoctorRepository repository)
         {
             _repository = repository;
         }
@@ -24,35 +22,36 @@ namespace SistemaClinicaRelatorio.Application.Service.Services
             throw new NotImplementedException();
         }
 
-        public List<PacientReportDTO> FindAll()
+        public List<DoctorDTO> FindAll()
         {
             return _repository.FindAll()
-                .Select(p => new PacientReportDTO()
-                {
-                    id = p.Id,
-                    name = p.Person.Name,
-                    cpf = p.Person.CPF,
-                    age = p.Person.Age,
-                    city = p.Person.Address.City,
-                }).ToList();
+                            .Select(d => new DoctorDTO()
+                            {
+                                id = d.Id,
+                                person = new PersonDTO()
+                                {
+                                    id = d.Person.Id,
+                                    name = d.Person.Name
+                                }
+                            }).ToList();
         }
 
-        public Task<PacientReportDTO> FindById(int id)
+        public Task<DoctorDTO> FindById(int id)
         {
             throw new NotImplementedException();
         }
 
-        public List<PacientReportDTO> GetAll()
+        public List<DoctorDTO> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public Task<PacientReportDTO> GetById(int id)
+        public Task<DoctorDTO> GetById(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Task<int> Save(PacientReportDTO entity)
+        public Task<int> Save(DoctorDTO entity)
         {
             throw new NotImplementedException();
         }
